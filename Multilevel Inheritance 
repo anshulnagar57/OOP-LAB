@@ -16,11 +16,11 @@ public:
 };
 
 class SportPerson : public Person {
-    int m = 50;
+    string s= "Kabaddi";
 
 public:
     void displaySport() {
-        cout << "Sport Value: " << m << endl;
+        cout << "Sports: " << s << endl;
     }
 };
 
